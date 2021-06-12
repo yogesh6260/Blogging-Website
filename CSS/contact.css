@@ -1,0 +1,21 @@
+.contact-content {
+    height: 395px;
+    height: 80vh;
+    /* background-color: rgb(229, 229, 247); */
+    margin-top: 22px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('../img/notebook-2637757_1920.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}
