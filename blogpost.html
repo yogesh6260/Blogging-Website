@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/utils.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/blogpost.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
     <title>iBlog - Heaven for Bloggers</title>
 </head>
 
@@ -23,7 +24,8 @@
         </div>
         <div class="nav-right">
             <form action="/search.html" method="get">
-                <input type="text" class="form-input" name="query" id="Search" placeholder="Article Search" autocomplete= off>
+                <input type="text" class="form-input" name="query" id="Search" placeholder="Article Search"
+                    autocomplete=off>
                 <button class="btn">Search</button>
             </form>
         </div>
@@ -31,68 +33,196 @@
     <div class="max-width-1 m-auto">
         <hr>
     </div>
-    <div class="post-img max-width-1 m-auto my-2">
-        <img src="./img/ecommerce-3599696_1920.jpg" alt="" srcset="">
+    <div class="post-img">
+        <img src="./img/pexels-luis-gomes-546819.jpg" alt="" srcset="">
     </div>
-    <div class="content max-width-1 m-auto my-2">
-        <div class="content-left">
-            <h1>The heaven for bloggers</h1>
-            <p>iBlog is a website which lets you submit an article which upon approval will be
-                up on our website and you can get a good amount of reach from here!
-            </p>
-            <p>A blog is a discussion or informational website published on the World Wide Web consisting of discrete,
-                often informal diary-style text entries. Posts are typically displayed in reverse chronological order,
-                so that the most recent post appears first, at the top of the web page. Until 2009, blogs were usually
-                the work of a single individual, occasionally of a small group, and often covered a single subject or
-                topic. In the 2010s, "multi-author blogs" emerged, featuring the writing of multiple authors and
-                sometimes professionally edited. MABs from newspapers, other media outlets, universities, think tanks,
-                advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise
-                of Twitter and other "microblogging" systems helps integrate MABs and single-author blogs into the news
-                media. Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>
+    <div class="blog-post-content m-auto max-width-2 my-2">
+        <h1 class="font-1 m-auto">The Heaven for Bloggers</h1>
+        <div class="blogpost-meta">
+            <div class="author-info">
+                <div>
+                    <b>By Yogesh</b>
+                </div>
+                <div>23 June. 10 min read</div>
+            </div>
+            <div class="social">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="icon">
+                    <path
+                        d="M22.3 4.3c-.82.51-1.72.88-2.67 1.08a4.25 4.25 0 0 0-6.18-.12 4.3 4.3 0 0 0-1.26 3.03c0 .34.04.67.08 1a12.2 12.2 0 0 1-8.81-4.52 4.8 4.8 0 0 0-.62 2.14 4.44 4.44 0 0 0 1.92 3.6 4.13 4.13 0 0 1-1.91-.55v.07c0 2.06 1.47 3.8 3.44 4.21-.37.08-.74.13-1.15.15l-.76-.07a4.32 4.32 0 0 0 3.98 2.99A9.03 9.03 0 0 1 3 19.14l-1-.06A12.26 12.26 0 0 0 8.6 21c7.88 0 12.2-6.55 12.17-12.18.02-.23.02-.41 0-.62a8.06 8.06 0 0 0 2.15-2.23c-.77.37-1.6.6-2.45.7a4.1 4.1 0 0 0 1.84-2.38" fill="black">
+                    </path>
+                </svg>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="icon">
+                    <path
+                        d="M20.3 4H4.7a.7.7 0 0 0-.7.7v15.6c0 .38.32.7.7.7h8.33v-6.38h-2.12v-2.65h2.12V9.84c0-2.2 1.4-3.27 3.35-3.27.94 0 1.75.07 1.98.1v2.3H17c-1.06 0-1.31.5-1.31 1.24v1.76h2.65l-.53 2.65H15.7l.04 6.38h4.56a.7.7 0 0 0 .71-.7V4.7a.7.7 0 0 0-.7-.7"
+                        fill="black"></path>
+                </svg>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="icon">
+                    <path
+                        d="M4 5.22C4 4.55 4.56 4 5.26 4h14.48c.7 0 1.26.55 1.26 1.22v14.56c0 .67-.56 1.22-1.26 1.22H5.26C4.56 21 4 20.45 4 19.78V5.22z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.15 18.23v-7.68H6.6v7.68h2.56zM7.87 9.51c.9 0 1.45-.6 1.45-1.33-.01-.75-.56-1.33-1.43-1.33-.88 0-1.46.58-1.46 1.33 0 .74.56 1.33 1.42 1.33h.02zM10.57 18.23h2.57v-4.29c0-.23.02-.45.09-.62.18-.46.6-.93 1.31-.93.93 0 1.3.7 1.3 1.73v4.11h2.57v-4.4c0-2.36-1.26-3.46-2.95-3.46-1.39 0-2 .77-2.34 1.3h.02v-1.12h-2.57c.04.72 0 7.68 0 7.68z"
+                        fill="black"></path>
+                </svg>
+            </div>
         </div>
-        <div class="content-right">
-            <img src="/img/home.svg" alt="iBlog" srcset="">
-        </div>
+        <p class="font-1"> <b>I</b>n <b>communications</b> and <b>information processing</b>, code is a system of rules
+            to convert
+            information—such as a letter, word, sound, image, or gesture—into another form, sometimes shortened or
+            secret, for communication through a communication channel or storage in a storage medium. <br> <b>A</b>n
+            early
+            example
+            is an invention of language, which enabled a person, through speech, to communicate what they thought, saw,
+            heard, or felt to others. But speech limits the range of communication to the distance a voice can carry and
+            limits the audience to those present when the speech is uttered. The invention of writing, which converted
+            spoken language into visual symbols, extended the range of communication across space and time. <br>
+            <b>Computer programming</b> is the process of designing and building an executable computer program to
+            accomplish a
+            specific computing result or to perform a specific task. Programming involves tasks such as: analysis,
+            generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of
+            algorithms in a chosen programming language (commonly referred to as coding). <br>
+            The source code of a program is written in one or more languages that are intelligible to programmers,
+            rather than machine code, which is directly executed by the central processing unit. The purpose of
+            programming is to find a sequence of instructions that will automate the performance of a task (which can be
+            as complex as an operating system) on a computer, often for solving a given problem. Proficient programming
+            thus often requires expertise in several different subjects, including knowledge of the application domain,
+            specialized algorithms, and formal logic. <br><br>
+            <b>This is a list of notable programming languages, grouped by type.
+
+                There is no overarching classification scheme for programming languages. Thus, in many cases, a language
+                is
+                listed under multiple headings.</b><br><br>
+        <ol class="font-1 mx-2">
+            <li> Array languages</li>
+            <li> Assembly languages</li>
+            <li> Authoring languages</li>
+            <li> Constraint programming languages</li>
+            <li> Command line interface languages</li>
+            <li> Compiled languages</li>
+            <li> Concurrent languages</li>
+            <li> Curly-bracket languages</li>
+            <li> Dataflow languages</li>
+            <li> Data-oriented languages</li>
+            <li> Decision table languages</li>
+            <li> Declarative languages</li>
+            <li> Embeddable languages</li>
+            <ul class="mx-1">
+                <li>In source code</li>
+                <ul class="mx-1">
+                    <li> Server side</li>
+                    <li> Client side</li>
+                </ul>
+            </ul>
+            <ul class="mx-1">
+                <li>In object code</li>
+            </ul>
+            <li> Educational languages</li>
+            <li> Esoteric languages</li>
+            <li>Extension languages</li>
+            <li> Fourth-generation languages</li>
+            <li> Functional languages</li>
+            <ul class="mx-1">
+                <li> Pure</li>
+                <li>Impure</li>
+            </ul>
+            <li> Hardware description languages</li>
+            <ul class="mx-1">
+                <li> HDLs for analog circuit design</li>
+                <li> HDLs for digital circuit design</li>
+            </ul>
+            <li> Imperative languages</li>
+            <li> Interactive mode languages</li>
+            <li>Interpreted languages</li>
+            <li> Iterative languages</li>
+            <li>Languages by memory management type</li>
+            <ul class="mx-1">
+                <li> Garbage collected languages</li>
+                <li>Languages with manual memory management</li>
+                <li> Languages with deterministic memory management</li>
+                <li> Languages with automatic reference counting (ARC)</li>
+            </ul>
+            <li> List-based languages – LISPs</li>
+            <li>Little languages</li>
+            <li> Logic-based languages</li>
+            <li> Machine languages</li>
+            <li> Macro languages</li>
+            <ul class="mx-1">
+                <li>Textual substitution macro languages</li>
+                <li>Application macro languages</li>
+            </ul>
+            <li> Metaprogramming languages</li>
+            <li> Multiparadigm languages</li>
+            <li> Numerical analysis</li>
+            <li> Non-English-based languages</li>
+            <li> Object-oriented class-based languages</li>
+            <ul class="mx-1">
+                <li> Multiple dispatch</li>
+                <li>Single dispatch</li>
+            </ul>
+            <li> Object-oriented prototype-based languages</li>
+            <li> Off-side rule languages</li>
+            <li> Procedural languages</li>
+            <li> Query languages</li>
+            <li> Reflective Language</li>
+            <li> Rule-based languages</li>
+            <li> Scripting languages</li>
+            <li> Stack-based languages</li>
+            <li> Synchronous languages</li>
+            <li> Shading languages</li>
+            <ul class="mx-1">
+                <li> Real-time rendering</li>
+                <li>Offline rendering</li>
+            </ul>
+            <li> Syntax-handling languages</li>
+            <li> System languages</li>
+            <li> Transformation languages</li>
+            <li> Visual languages</li>
+            <li>Wirth languages</li>
+            <li> XML-based languages</li>
+        </ol>
+        </p>
     </div>
     <div class="max-width-1 m-auto">
         <hr>
     </div>
     <div class="home-articles max-width-1 m-auto font-2">
-        <h1>People who read this also read</h1>
-        <div class="home-article">
-            <div class="home-article-img">
-                <img src="./img/ecommerce-3599696_1920.jpg" alt="article">
+        <h2>People who read this also read</h2>
+        <div class="row">
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="./img/pexels-alex-knight-2599244.jpg" alt="article">
+                </div>
+                <div class="home-article-content font-1 center">
+                    <a href="/blogpost.html">
+                        <h3>Learn About Machine Learning</h3>
+                    </a>
+                    <div>Author Name</div>
+                    <span>09 June | 6 min read</span>
+                </div>
             </div>
-            <div class="home-article-content font-1">
-                <a href="/blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
-                <div>Author Name</div>
-                <span>09 June | 6 min read</span>
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="./img/pexels-pixabay-221185.jpg" alt="article">
+                </div>
+                <div class="home-article-content font-1 center">
+                    <a href="/blogpost.html">
+                        <h3>IOT (Internet of Things)</h3>
+                    </a>
+                    <div>Author Name</div>
+                    <span>09 June | 6 min read</span>
+                </div>
             </div>
-        </div>
-        <div class="home-article">
-            <div class="home-article-img">
-                <img src="./img/laptop-336378_1920.jpg" alt="article">
-            </div>
-            <div class="home-article-content font-1">
-                <a href="/blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
-                <div>Author Name</div>
-                <span>09 June | 6 min read</span>
-            </div>
-        </div>
-        <div class="home-article">
-            <div class="home-article-img">
-                <img src="./img/notebook-2637757_1920.jpg" alt="article">
-            </div>
-            <div class="home-article-content font-1">
-                <a href="/blogpost.html">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-                </a>
-                <div>Author Name</div>
-                <span>09 June | 6 min read</span>
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="./img/pexels-serpstat-572056.jpg" alt="article">
+                </div>
+                <div class="home-article-content font-1 center">
+                    <a href="/blogpost.html">
+                        <h3>Social Media Marketing</h3>
+                    </a>
+                    <div>Author Name</div>
+                    <span>09 June | 6 min read</span>
+                </div>
             </div>
         </div>
     </div>

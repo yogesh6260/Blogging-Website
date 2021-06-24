@@ -6,7 +6,7 @@
 .navigation {
     margin-top: 25px;
     font-family: var(--font1);
-    height: 74px;
+    /* height: 74px; */
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .content {
-    height: 395px;
+    height: 100%;
     /* background-color: rgb(229, 229, 247); */
     display: flex;
     margin-top: 32px;
@@ -48,18 +48,21 @@
 .nav-left {
     display: flex;
 }
-.nav-left span img{
+
+.nav-left span img {
     width: 100px;
     height: 100px;
     border-radius: 50px;
     margin-bottom: 17px;
 }
+
 .nav-left ul {
     display: flex;
     align-items: center;
     margin: 0 77px;
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 23px;
 }
 
 .nav-left ul li {

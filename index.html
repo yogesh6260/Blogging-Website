@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/utils.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
     <title>iBlog - Heaven for Bloggers</title>
 </head>
 
@@ -22,7 +23,8 @@
         </div>
         <div class="nav-right">
             <form action="/search.html" method="get">
-                <input type="text" class="form-input" name="query" id="Search" placeholder="Article Search" autocomplete= off>
+                <input type="text" class="form-input" name="query" id="Search" placeholder="Article Search"
+                    autocomplete=off>
                 <button class="btn">Search</button>
             </form>
         </div>
@@ -54,8 +56,12 @@
         <hr>
     </div>
     <div class="home-articles max-width-1 m-auto font-2">
-        <div class="year-box">
-            <h3>Year</h3>
+
+        <h2>Featured Articles</h2>
+        <div class="year-box adjust-year">
+            <div>
+                <h3>Year</h3>
+            </div>
             <div>
                 <input type="radio" name="year" id="">2020
             </div>
@@ -63,7 +69,6 @@
                 <input type="radio" name="year" id="">2021
             </div>
         </div>
-        <h2>Featured Articles</h2>
         <div class="home-article">
             <div class="home-article-img">
                 <img src="./img/ecommerce-3599696_1920.jpg" alt="article">

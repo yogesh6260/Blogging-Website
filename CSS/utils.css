@@ -13,9 +13,18 @@
     font-family: var(--font2);
 }
 
+.center {
+    text-align: center;
+}
+
 .mx-1 {
     margin-left: 23px;
     margin-right: 23px;
+}
+
+.mx-2 {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .max-width-1 {

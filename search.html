@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/utils.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
     <title>iBlog - Heaven for Bloggers</title>
 </head>
 
@@ -21,7 +23,8 @@
         </div>
         <div class="nav-right">
             <form action="/search.html" method="get">
-                <input type="text" class="form-input" name="query" id="Search" placeholder="Article Search" autocomplete= off>
+                <input type="text" class="form-input" name="query" id="Search" placeholder="Article Search"
+                    autocomplete=off>
                 <button class="btn">Search</button>
             </form>
         </div>
@@ -30,7 +33,19 @@
         <hr>
     </div>
     <div class="home-articles max-width-1 m-auto font-2">
+
         <h3>Search Results for Django (0.03 seconds)</h3>
+        <div class="year-box adjust-year">
+            <div>
+                <h3>Year</h3>
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2020
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2021
+            </div>
+        </div>
         <div class="home-article">
             <div class="home-article-img">
                 <img src="./img/ecommerce-3599696_1920.jpg" alt="article">
